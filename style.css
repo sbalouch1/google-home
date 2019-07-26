@@ -11,7 +11,15 @@ font-family: Arial, Helvetica, sans-serif;
 .navbar{
     position: fixed;
     top: 16px;
-    width: 100%;
+    width: 99%;
+    min-width: 980px;
+    z-index: 103;
+    list-style-type: none;
+}
+.footer{
+    position: fixed;
+    bottom: 16px;
+    width: 99%;
     min-width: 980px;
     z-index: 103;
     list-style-type: none;
